@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/form.css" />
+    <title>JoinUs - webProjects</title>
+</head>
+
+<body>
+   
+<nav id="navigationbar" class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <a class="navbar-brand" href="index.html">
+      <img src="assets/images/icons/logo.png" alt="Logo" style="height: 40px; margin-left:15px;">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="about.html" style="margin-left: 5px;">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="gallery.html"> Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="locations.html" style="margin-left: 5px;">Current Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="form.html" style="margin-left: 5px;">Join Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="assets/pdfs/artaroundreport.pdf" style="margin-left: 5px;">*Report</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+    <div class="fade-in">
+        <div class="container py-5 mb-5 mt-0">
+            <div class="row py-5">
+                <div class="col-md-6 firstcol">
+                    <form class="p-4 mt-3">
+                    <h1><span class="title title-word">Join Us</span></h1>
+
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput2" class="form-label">Email</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput2">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Tell us a little bit about yourself!</label>
+                            <textarea type="text" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="inputState" class="form-label">State</label>
+                            <select id="inputState" class="form-select">
+                                <option selected> Akkar</option>
+                                <option selected> Baalbeck-Hermel</option>
+                                <option selected> Beirut</option>
+                                <option selected> Bekaa</option>
+                                <option selected> Mount Lebanon</option>
+                                <option selected> North Lebanon</option>
+                                <option selected> Nabatiyeh</option>
+                                <option selected> South Lebanon</option>
+                                <option>...</option>
+                            </select>
+                        </div>
+                        <div class="mb-3 mt-3">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                                I acknowledge that submitting this form does not <br>guarantee acceptance into the team.
+                            </label>
+                        </div>
+
+                        <div class="mb-3">
+                            <button class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6 secondcol">
+                    <img src="assets/images/form/form.jpg" class="img-fluid" alt="Form image">
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer-left">
+                <img src="assets/images/icons/logo.png" alt="Art Around The World Logo" class="footer-logo">
+                
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="locations.html">Current Events Locations</a></li>
+                    <li><a href="form.html">Join Us</a></li>
+                    <li><a href="assets/pdfs/artaroundreport.pdf">*Report</a></li>
+        
+                </ul>
+        
+                <p class="footer-copyright">
+                    &copy; 2024 Art Around The World. All rights reserved.
+                </p>
+            </div>
+        
+            <div class="footer-right">
+                <a href="https://www.instagram.com" target="_blank" aria-label="Follow us on Instagram" class="social-link">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.threads.net" target="_blank" aria-label="Follow us on Threads" class="social-link">
+                    <i class="fa-brands fa-threads"></i>
+                </a>
+                <a href="mailto:202312532@ua.edu.lb" aria-label="Email us" class="social-link">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </footer></body>
+
+</html>
